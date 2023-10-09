@@ -1,10 +1,7 @@
 import azure.functions as func
-import logging
-import os
-import base64
-from azure.identity import DefaultAzureCredential
+import logging, os, base64
 from datetime import datetime, timedelta
-from azure.storage.blob import generate_container_sas, generate_blob_sas, BlobServiceClient, BlobSasPermissions, BlobClient
+from azure.storage.blob import generate_blob_sas, BlobSasPermissions, BlobServiceClient
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
