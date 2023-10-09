@@ -14,3 +14,5 @@ Helpful links:
 [Example: Access Azure Storage using the Azure libraries for Python](https://learn.microsoft.com/en-us/azure/developer/python/sdk/examples/azure-sdk-example-storage-use?tabs=cmd)
 
 [Azure Storage client libraries for Python](https://learn.microsoft.com/en-us/python/api/overview/azure/storage?view=azure-python)
+
+Note: This function originated from this quickstart [Quickstart: Azure Blob Storage client library for Python](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-python?tabs=managed-identity%2Croles-azure-portal%2Csign-in-azure-cli).  The quickstart logic has been left in place for testing purposes.
